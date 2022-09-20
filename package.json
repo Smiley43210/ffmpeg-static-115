@@ -1,0 +1,14 @@
+{
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+	  "build": "rm -rfd dist && npx tsc --project ."
+	},
+	"dependencies": {
+	  "ffmpeg-static": "^5.1.0"
+	},
+	"devDependencies": {
+	  "typescript": "^4.8.3"
+	}
+  }
+  
